@@ -123,7 +123,7 @@ public class JdbcStudentRepository implements StudentRepository{
                 updatedStudent.getLastName(),
                 updatedStudent.getNumberOfECTS(),
                 updatedStudent.getDateOfBirth(),
-                updatedStudent.getJmbag()
+                JMBAG
         );
 
         if(executed > 0){

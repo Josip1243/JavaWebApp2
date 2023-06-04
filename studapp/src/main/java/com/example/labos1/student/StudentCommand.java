@@ -1,11 +1,13 @@
 package com.example.labos1.student;
 
 import jakarta.validation.constraints.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDate;
 
 @Data
+@AllArgsConstructor
 public class StudentCommand {
 
     @NotBlank(message = "First name must not be empty")
